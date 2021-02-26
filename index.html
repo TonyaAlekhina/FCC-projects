@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="shortcut icon" href="/images/2.png" type="image/x-icon">
+    <title>Product Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header__inner__down">
+            <div id="container_header__inner__down">
+                <div class="header__logo">
+                    <b>Lufthansa</b>
+                </div>
+                <div class="image">
+                    <img id="header-img" scr="/images/2.png">
+                </div>
+                <nav id="nav-bar">
+                    <a class="nav-link" href="#how_it_works">About Us</a>
+                    <a class="nav-link" href="#destinations">Destinations</a>
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--доработать-->
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <div class="intro">
+            <div class="welcome">
+                <h2>WELCOME</h2><br>
+            </div>
+            <input name="email" type="email" id="email" placeholder="Enter your email here" required><br><br>
+            <input id="submit" type="submit" value="Click">
+        </div>
+    </form>
+    <!---->
+
+    <section id="how_it_works">
+        <div class="introduction">
+            <h1>COMPANY PORTRAIT</h1>
+            <div class="description">
+                <p>The Lufthansa Group is an aviation group with operations worldwide. With 138,353 employees, the
+                    Lufthansa Group generated revenue of EUR 36,424m in the financial year 2019. The Lufthansa Group is
+                    composed of the segments Network Airlines, Eurowings and Aviation Services. Aviation Services
+                    comprises the segments Logistics, MRO, Catering and Additional Businesses and Group Functions. The
+                    latter also include Lufthansa AirPlus, Lufthansa Aviation Training and the IT companies. All
+                    segments occupy a leading position in their respective markets.</p>
+            </div>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/P83ARC8SLlM" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <section id="destinations">
+        <h1>DESTINATIONS</h1>
+        <div class="countries">
+            <div class="Austria">
+                <img id="austria" src="./images/austria.jpg" alt="">
+                <p class="title">Austria-Wien</p>
+            </div>
+        </div>
+
+        <div class="countries">
+            <div class="Finland">
+                <img id="finland" src="./images/finland.png" alt="">
+                <p class="title">Finland-Helsinki</p>
+            </div>
+        </div>
+
+        <div class="countries">
+            <div class="Sweden">
+                <img id="sweden" src="./images/stockholm.png" alt="">
+                <p class="title">Sweden-Stockholm</p>
+            </div>
+        </div>
+
+        <div class="countries">
+            <div class="Poland">
+                <img id="poland" src="./images/poland2.jpg" alt="">
+                <p class="title">Poland-Warsaw</p>
+            </div>
+        </div>
+
+        <section id="pricing">
+            <h1>PRICING</h1>
+            <div class="product">
+                <div class="pricing-title">
+                    <h2>Family tickets</h2>
+                    <div class="learn-more">
+                        <a href="">Learn more</a>
+                    </div>
+                    <button class="btn">Select</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="pricing-title">
+                    <h2>Student tickets</h2>
+                    <div class="learn-more">
+                        <a href="">Learn more</a>
+                    </div>
+                    <button class="btn">Select</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="pricing-title">
+                    <h2>Retiree tickets</h2>
+                    <div class="learn-more">
+                        <a href="">Learn more</a>
+                    </div>
+                    <button class="btn">Select</button>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <h4>Lufthansa</h4>
+            <span>Copyright 2021, Lufthansa group</span>
+        </footer>
+</body>
+</html>
